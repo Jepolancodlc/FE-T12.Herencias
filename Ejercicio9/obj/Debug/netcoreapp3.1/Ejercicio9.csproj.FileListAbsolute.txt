@@ -1,0 +1,13 @@
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\bin\Debug\netcoreapp3.1\Ejercicio9.exe
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\bin\Debug\netcoreapp3.1\Ejercicio9.deps.json
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\bin\Debug\netcoreapp3.1\Ejercicio9.runtimeconfig.json
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\bin\Debug\netcoreapp3.1\Ejercicio9.runtimeconfig.dev.json
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\bin\Debug\netcoreapp3.1\Ejercicio9.dll
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\bin\Debug\netcoreapp3.1\Ejercicio9.pdb
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\obj\Debug\netcoreapp3.1\Ejercicio9.csprojAssemblyReference.cache
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\obj\Debug\netcoreapp3.1\Ejercicio9.AssemblyInfoInputs.cache
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\obj\Debug\netcoreapp3.1\Ejercicio9.AssemblyInfo.cs
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\obj\Debug\netcoreapp3.1\Ejercicio9.csproj.CoreCompileInputs.cache
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\obj\Debug\netcoreapp3.1\Ejercicio9.dll
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\obj\Debug\netcoreapp3.1\Ejercicio9.pdb
+C:\Users\adria\source\repos\UD08\UD08\Ejercicio9\Ejercicio9\obj\Debug\netcoreapp3.1\Ejercicio9.genruntimeconfig.cache
