@@ -8,23 +8,30 @@ namespace Ejercicio9
         static void Main(string[] args)
 
         {
-            Espectador espectador = new Espectador("", 0, 0);
-            Peliculas pelicula = new Peliculas("","",0,0);
-            Asientos A = new Asientos();
-            Cine cine = new Cine(pelicula,0);
-            char[,] asientos = new char[8, 8];
-
-            Console.WriteLine(cine);
-            A.comienzoSala(asientos);
-
-            for (int i = 0; i != 63; i++)
-            {
-                espectador = new Espectador("", 0, 0);
-                Console.WriteLine(espectador);
-                A.llenarAsientos(asientos, espectador, pelicula, cine);
-            }
+            Console.WriteLine("Introdzca numero espectadores: ");
+            int nE = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("*Recuerde: El numero de columnas no ha de ser mayor que el de filas*");
+            Console.WriteLine("Introdzca numero de filas: ");
+            Asientos.Fila = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Introdzca numero de columnas: ");
+         
+            Asientos.Col = Convert.ToInt32(Console.ReadLine());
            
-            A.mostrarCine(asientos);
+            Espectador espectador = new Espectador();
+            Peliculas pelicula = new Peliculas();
+            Asientos A = new Asientos();
+            Cine cine = new Cine(pelicula);
+            Console.WriteLine(cine);
+
+            A.comienzoSala();
+
+            for (int i = 0; i != nE; i++)
+            {
+                espectador = new Espectador();
+                Console.WriteLine(espectador);
+                A.llenarAsientos(espectador, pelicula, cine);
+            }
+            A.mostrarCine();
         }
     }
 }
