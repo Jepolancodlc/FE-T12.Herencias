@@ -11,19 +11,12 @@ namespace Ejercicio9
         private double precio = 0;
 
         //Construsctores
-        public Cine()
-        {
-        }
-
-        public Cine(Peliculas pelicula, double precio)
+        public Cine(Peliculas pelicula)
         {
             this.Pelicula = pelicula;
             this.precio = generarPrecio();
         }
-
-
         //Getters&Setters
-
         public double Precio { get => precio; set => precio = value; }
         public Peliculas Pelicula { get => pelicula; set => pelicula = value; }
 
@@ -36,9 +29,7 @@ namespace Ejercicio9
         public double generarPrecio()
         {
             Random random = new Random();
-            return Math.Round(random.NextDouble() * (0.3 - 0.2) + 0, 2);
-
+            return Math.Round(random.NextDouble() * (12 - 3) + 3, 2);
         }
-
     }
 }

@@ -15,10 +15,6 @@ namespace Ejercicio9
         //Constructores
         public Espectador() //Constructor por defecto
         {
-        }
-
-        public Espectador(string nombre, int edad, double dinero)
-        {
             this.Nombre = generaNombre();
             this.Edad = generarEdad();
             this.Dinero = generarDinero();
@@ -55,14 +51,13 @@ namespace Ejercicio9
         public double generarDinero() //Genera la cantidad de dinero del espectador
         {
             Random random = new Random();
-            return Math.Round(random.NextDouble() * (50 - 0) + 0, 2);
-
+            return Math.Round(random.NextDouble() * (25 - 0) + 0, 2);
         }
 
         public int generarEdad() //Genera la edad del espectador
         {
             Random random = new Random();
-            return random.Next(3, 99); 
+            return random.Next(3, 65); 
         }
     }
 }
